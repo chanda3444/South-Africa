@@ -1,0 +1,21 @@
+{
+  "name": "South Africa",
+  "description": "Javascript Whatsapp bot made by Dr Chanda",
+  "logo": ".jpg",
+  "keywords": ["SA BOT"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
