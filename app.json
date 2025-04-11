@@ -1,16 +1,24 @@
 {
-  "name": "South Africa",
-  "description": "Javascript Whatsapp bot made by Dr Chanda",
+  "name": "© South African bot (2.5)",
+  "description": "© South African bot has been designed by Dr Chanda to make things easier and fun while using WhatsApp.🛜",
   "logo": ".jpg",
-  "keywords": ["SA BOT"],
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "prabath-md"],
   "success_url": "/",
 
   "env": {
-    "SESSION_ID": {
+      "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true
-    }
+     },
+      "GITHUB_TOKEN": {
+      "description": "Put the Github token without ghp_ here.",
+      "required": true  
 },
+      "GITHUB_USERNAME": {
+      "description": "Put the github username here.",
+      "required": true 
+}
+  },
 
      "buildpacks": [
         {
@@ -18,4 +26,7 @@
         }
      ],
   "stack": "heroku-24"
+  
+  
 }
+
